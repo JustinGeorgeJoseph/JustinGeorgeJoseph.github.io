@@ -1678,7 +1678,7 @@
 		clear: both;
 	}
 
-/* Sections/Article */
+/* Sections/Article  article:last-childs */
 
 	section, article {
 		margin-bottom: 3em;
@@ -1686,7 +1686,7 @@
 
 		section > :last-child,
 		section > .container, section:last-child, article > :last-child,
-		article > .container, article:last-child {
+		article > .container {
 			margin-bottom: 0;
 		}
 
